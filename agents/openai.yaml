@@ -1,0 +1,13 @@
+interface:
+  display_name: Human Writing
+  short_description: 先共创选题，再用专业术语、数据与图像证据写自然中文
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: 使用 $human-writing，先和我共创选题，再核准专业术语、数据和图片证据，写成有判断的自然中文。
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
